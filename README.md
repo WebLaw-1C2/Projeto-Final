@@ -1,6 +1,7 @@
 # Projeto-Final
-Proposto pelo professor Ronildo Aparecido, como último trabalho em python a ser realizado até o fim do ano. 
-Grupo: WebLaw - Davi de Jesus, Gabriel Macedo, João Gabriel e Nicolas de Oliveira 
+Proposto pelo professor Ronildo Aparecido, como último trabalho em python a ser realizado até o fim do ano.
+
+// Grupo: WebLaw - Davi de Jesus, Gabriel Macedo, João Gabriel e Nicolas de Oliveira 
 
 🧠 Atividade Avaliativa – 4º Bimestre
   Curso Técnico em Desenvolvimento de Sistemas — Nível Médio
