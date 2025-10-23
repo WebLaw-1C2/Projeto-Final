@@ -176,8 +176,11 @@ Proposto pelo professor Ronildo Aparecido, como último trabalho em python a ser
 🧭 Exemplo de Estrutura de Pastas
 
   AA4B_Quiz_Arduino/
+  
   │
+  
   ├── quiz_arduino.py # Código principal (com perguntas e funções)
+  
   └── README.md # Identificação do grupo e orientações
   
   🧠 Orientações Finais
