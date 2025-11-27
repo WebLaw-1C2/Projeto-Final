@@ -1,4 +1,4 @@
-def mostrar_regras():  
+def mostrar_regras():
     regras = """
     #####################################################################
     #           📜 REGRAS DO QUIZ INTERATIVO ARDUINO 🧠                #
@@ -40,29 +40,25 @@ def mostrar_regras():
     Bons estudos e boa sorte!
     #####################################################################
     """
-    print (regras)
+    print(regras)
+
+
 def mostrar_menu():
-    opcoes = {
-        "1": "Opção 1: Exibir Quiz",
-        "2": "Opção 2: Exibir Regras",
-        "3": "Opção 3: Encerrar Programa"
-    }
- 
-    for chave, valor in opcoes.items():
-        print(f"{chave} - {valor}")
-        
-    while True: 
-        escolha = input("Escolha uma opção: ")
+    while True:
+        print("\n========= MENU PRINCIPAL =========")
+        print("1 - Iniciar Quiz")
+        print("2 - Mostrar Regras")
+        print("3 - Sair")
+        print("==================================")
 
-        if escolha == "1":
-            print("Você escolheu exibir o quiz!")
-        elif escolha == "2":
-            print("Você escolheu exibir as regras!")
+        op = input("Escolha uma opção: ")
+
+        if op == "1":
+            iniciar_quiz()
+        elif op == "2":
             mostrar_regras()
-        elif escolha == "3":
-            print("Saindo...")
-            exit()
+        elif op == "3":
+            print("Encerrando... Até mais!")
+            break
         else:
-            print("Opção inválida!")
-
-mostrar_menu()
+            print("Opção inválida, tente novamente.")
